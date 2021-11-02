@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: blue;
+    font-family: sans-serif;
+
+}
+.container{
+    width: 100%;
+    text-align: center;  /*ortalaması için*/
+    margin-top: 100px;
+
+}
+#title{
+    text-align: center;
+    font-size: 50px;
+
+}
+#inputText{
+    width: 500px;
+    height: 45px;
+    border: 2px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border-radius: 15px;
+
+}
+#addToDo{
+    width: 100px;
+    height: 45px;
+    border: 2px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: chartreuse;
+    text-align: center;
+
+
+}
+#clearToDo{
+    width: 100px;
+    height: 45px;
+    border: 2px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border-radius: 15px;
+    cursor: pointer;  
+    text-align: center;
+    background-color:red
+
+
+
+}
+#addToDo:active {
+   background: crimson;
+}
+#clearToDo:active{
+    background: cornflowerblue;
+}
+
+.paragraph-styling{
+    margin: 0px;
+    cursor: pointer;
+    font-size:35px;
+    color: black;
+    text-transform: capitalize;
+}
+.to-dos{
+    margin-top: 25px;
+
+}
